@@ -3,11 +3,11 @@ header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: POST');
 
-$host = 'YOUR_DATABASE_HOST';
-$port = 'YOUR_DATABASE_PORT';
-$dbname = 'YOUR_DATABASE_NAME';
-$user = 'YOUR_DATABASE_USER';
-$password = 'YOUR_DATABASE_PASSWORD';
+$host = 'autorack.proxy.rlwy.net';
+$port = '42878';
+$dbname = 'railway';
+$user = 'postgres';
+$password = 'vpvoDtxKwNcXULfRsZZxXwXfDVfGrsYC';
 
 $dsn = "pgsql:host=$host;port=$port;dbname=$dbname";
 
